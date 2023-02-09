@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Calibri";
+}
+
+body {
+  background-color: #36393e;
+  color: white;
+}
+
+h3 {
+  color: red;
+}
+
+h1 > a {
+  color: #7289da;
+}
+
+button,
+input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+button:hover {
+  transition: transform 0.2s;
+  transform: scale(1.25);
+}
+
+.main-box {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box > * {
+  margin-top: 1rem;
+}
+
+a {
+  color: white;
+}
+
+.main-box > a:hover {
+  transition: transform 0.2s;
+  transform: scale(1.5);
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box > * {
+  margin-bottom: 1rem;
+}
