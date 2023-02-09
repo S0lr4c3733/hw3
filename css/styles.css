@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Calibri";
+  font-family: "Courier New", Courier, monospace;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 h3 {
-  color: red;
+  color: #77a0ba;
 }
 
 h1 > a {
@@ -49,6 +49,7 @@ a {
 .main-box > a:hover {
   transition: transform 0.2s;
   transform: scale(1.5);
+  color: #7289da;
 }
 
 .form-box {
@@ -57,5 +58,18 @@ a {
 }
 
 .form-box > * {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: large;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+span {
+  font-style: italic;
 }
